@@ -16,14 +16,12 @@ public class SortIteration {
      */
     public int[] sort(int[] a) {
         int n = a.length;
-        printArray(a);
         for (int i = 0; i < n - 1; i++) {
             int indexOfNextSmallest = getIndexOfSmallest(a, i, n);
             if (i != indexOfNextSmallest) {
                 swap(a, i, indexOfNextSmallest);
             }
         }
-        printArray(a);
         return a;
     }
 
