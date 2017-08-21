@@ -9,6 +9,7 @@ public class Test {
     public static void main(String[] args) {
         // 添加测试用力列表
         testList.add(new SortIterationTest());
+        testList.add(new RecursionSortTest());
 
         for (TestInterface item : testList){
             item.test();
