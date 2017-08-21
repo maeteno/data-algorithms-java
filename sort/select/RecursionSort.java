@@ -1,5 +1,8 @@
 package sort.select;
 
+/**
+ * 选择排序递归实现
+ */
 public class RecursionSort{
 
     public int[] sort(int[] a){
