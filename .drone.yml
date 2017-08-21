@@ -1,0 +1,6 @@
+pipeline:
+  test:
+    image: java
+    commands:
+      - chmod +x ./test.sh
+      - ./test.sh
