@@ -7,6 +7,7 @@ echo "=========================100%"
 
 # build
 echo "开始编译"
+javac -d ./out/ ./sort/*/*.java
 javac -d ./out/ ./test/Test.java
 cd ./out
 echo "=========================100%"

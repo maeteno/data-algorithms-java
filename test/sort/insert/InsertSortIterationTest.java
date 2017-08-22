@@ -1,17 +1,16 @@
-package  test.sort.select;
+package test.sort.insert;
 
 import test.TestInterface;
-import sort.select.*;
+import sort.insert.*;
 import java.util.Arrays;
 
-public class SortIterationTest implements TestInterface{
-
+public class InsertSortIterationTest implements TestInterface{
     public void test(){
-        SortIteration si = new SortIteration();
+        InsertSortIteration is = new InsertSortIteration();
         int[] a = new int[]{1,2,3,8,10,1,4,6,3,2,9,7,5};
         System.out.println("排序前：");
         System.out.println(Arrays.toString(a));
-        si.sort(a);
+        is.sort(a);
         System.out.println("排序后：");
         System.out.println(Arrays.toString(a));
     }
