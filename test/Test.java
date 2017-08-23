@@ -12,6 +12,7 @@ public class Test {
         testList.add(new SortIterationTest());
         testList.add(new RecursionSortTest());
         testList.add(new InsertSortIterationTest());
+        testList.add(new InsertSortTest());
 
         for (TestInterface item : testList){
             item.test();

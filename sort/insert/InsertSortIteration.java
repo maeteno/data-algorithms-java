@@ -2,6 +2,9 @@ package sort.insert;
 
 import java.util.Arrays;
 
+/**
+ * 插入排序
+ */
 public class InsertSortIteration {
     public int[] sort(int[] a) {
         int len = a.length;
@@ -16,10 +19,15 @@ public class InsertSortIteration {
         return a;
     }
 
+    /**
+     *
+     * @param a
+     * @param index
+     */
     public void carding(int[] a, int index) {
         int tmp = a[index];
         int insertIndex = 0;
-        if (index > 0) for (int i = index; i > 0; i--) {
+        for (int i = index; i > 0; i--) {
             if (a[i] >= tmp && a[i - 1] < tmp) {
                 insertIndex = i;
                 break;
