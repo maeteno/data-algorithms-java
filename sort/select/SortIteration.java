@@ -1,7 +1,6 @@
 package sort.select;
 
 /**
- * 选择排序又叫冒泡排序
  * 排序规则为： 遍历序列的每个元素，找到最小的元素，并放在最前面，然后遍历剩下的找到最小的元素。遍历查找剩下序列最小的元素。
  */
 public class SortIteration {
