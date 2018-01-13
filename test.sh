@@ -8,6 +8,7 @@ echo "=========================100%"
 # build
 echo "开始编译"
 javac -d ./out/ ./sort/*/*.java
+javac -d ./out/ ./sort/*.java
 javac -d ./out/ ./test/Test.java
 cd ./out
 echo "=========================100%"
@@ -15,4 +16,5 @@ echo "=========================100%"
 # run.sh
 echo "执行测试"
 echo "============================="
-java test.Test
+# java test.Test
+java sort.Sort
